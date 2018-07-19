@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+	
+	<p>Do you prefer cats or dogs?</p>
+<form>
+	<label for="dogs">Dogs:</label> <!-- "for" on a lable and "id" on an input links the two together -->
+	<input name="petChoice" id="dogs" type="radio" value="dogs"> <!-- "name" is what links the two inputs together so you can't select both -->
+	
+	<label for="cats">Cats:</label>
+	<input name="petChoice" id="cats" type="radio" value="cats">
+	
+	<p> What's your favorite color
+	<select name="color">
+		<option value="Happy">:)</option>
+		<option value="Neutral">:|</option>
+		<option value="Sad">:(</option>
+	</select>
+	
+	<textarea name="bio" rows="10" cols="10"></textarea>
+	
+	<button>Go!</button> <!-- If a button is the last item in a form it will submit it -->
+</form>
+
+</body>
+</html>
